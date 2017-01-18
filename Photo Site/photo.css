@@ -1,0 +1,40 @@
+body {
+  background-color: green;
+  padding: 20px 10px;
+  background: url("https://mowryjournal.files.wordpress.com/2014/07/great-smoky-mountains-np-30.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+#logo {
+  height: auto;
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  border-style: none;
+  border-color: black;
+  padding-top: 30px;
+  padding-left: 0px;
+  text-align: center;
+}
+ul li {
+  padding: 35px 75px;
+  background-color: none;
+  border-style: solid;
+  border-color: #008000;
+  border-radius: 5px;
+  border-width: 4px;
+  display: inline-block;
+  width: 30px;
+  margin: 5px 5px 35px 5px;
+  font-family: Montserrat;
+  font-weight: bold;
+  color: white;
+}
+ul li:hover {
+  background-color: #008000;
+}
